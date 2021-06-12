@@ -1,0 +1,7 @@
+[profile]
+user=ocid1.user.oc1..aaaaaaaaxtciqwuwtcvf37ef3oey5qunm27pns4gq2w56bxold73lstsmaeq
+fingerprint=5b:35:11:e3:aa:9e:b5:f1:3b:51:8f:1f:93:f1:d3:14
+tenancy=ocid1.tenancy.oc1..aaaaaaaalylrk6bjiuxqryukd6jrlxgfbwjuulnavxqehvv3crknt7ewhlpa
+region=us-ashburn-1
+key_file=<path to your private keyfile> # TODO
+compartment=ocid1.compartment.oc1..aaaaaaaaukottugsmj5vmneywbzvecjbg5pew2b7clgnm53zwyvgdutdiwvq

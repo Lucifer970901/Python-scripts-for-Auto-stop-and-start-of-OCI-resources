@@ -7,12 +7,12 @@ import pandas as pd
 from oci import config
 
 # Tenancy & User details for Authentication ( Change as needed)
-tenancy_id = 'ocid1.tenancy.oc1..aaaaaaaalylrk6bjiuxqryukd6jrlxgfbwjuulnavxqehvv3crknt7ewhlpa' # Tenancy & Root compartment OCID
-compartment_id = 'ocid1.compartment.oc1..aaaaaaaaukottugsmj5vmneywbzvecjbg5pew2b7clgnm53zwyvgdutdiwvq' #  compartment OCID
-userocid = 'ocid1.user.oc1..aaaaaaaaxtciqwuwtcvf37ef3oey5qunm27pns4gq2w56bxold73lstsmaeq' # User OCID
+tenancy_id = 'ocid1.tenancy.oc1..aaaaxxxxxxxxxxxxxxxxxxxxxrlxgfbwjuulnavxqehvv3crknt7ewhlpa' # Tenancy & Root compartment OCID
+compartment_id = 'ocid1.compartment.ocxxxxxxxxxxxxxxxxxxxxmneywbzvecjbg5pew2b7clgnm53zwyvgdutdiwvq' #  compartment OCID
+userocid = 'ocid1.user.oc1..aaaaaaaaxtciqxxxxxxxxxxxxxxxxxxxxxxxgq2w56bxold73lstsmaeq' # User OCID
 home_region = 'us-ashburn-1' # Home Region
-key_file = 'C:/Users/megn/.oci/oci_api_key.pem' # Prvate file for User Authentication
-fingerprint = '63:cd:da:65:17:8c:50:7e:b0:68:a4:f3:59:77:37:44' # Finger print of the public key added in user tokens
+key_file = '<path key file>' # Prvate file for User Authentication
+fingerprint = '63:cd:da:65:17xxxxxxxxxxxxxxxxx4:f3:59:77:37:44' # Finger print of the public key added in user tokens
 
 ex_comps = ['ManagedCompartmentForPaaS']
 print("\n")
@@ -76,4 +76,3 @@ print(".........................................................................
 print("................................. The Program Ends Here  ................................................")
 print(".........................................................................................................")
 print("\n")
-

@@ -6,7 +6,7 @@ installation in oracle linux
 2.install OCI cli packages:
  sudo yum install python36-oci-cli
 
-3.fetch the OCId (from tenancy, users and compartments and provide them in the script configuration 
+3.fetch the OCID (from tenancy, users and compartments and provide them in the script configuration)
 
 4.create the public key file pem format and add the API key and generate the fingerprint.
 # Private key generation

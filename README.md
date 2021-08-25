@@ -1,4 +1,6 @@
-Auto start/stop of instances using python and cronjob
+Auto start/stop of instances using python and cronjob.
+
+
 Many of the times we might need to manually shutdown the instances in multiple compartments within the tenancy. It can be a tedious job. What if there are 50 odd instances!! Or even more
 the task can be automated using python script which runs in a free instance available to all the tenancies!
 For this task you might need to deploy the code once in your instance and it will do the job until you have instances running in your compartment. No maintenance needed!!

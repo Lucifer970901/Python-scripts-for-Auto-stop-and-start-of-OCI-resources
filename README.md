@@ -19,24 +19,30 @@ Add the SSH keys and click on create button. (for information on how to create t
  
 4.	Once the instance is un and running. Log into the instance (I am using PUTTY in this case)
 Install the necessary packages required in the instance.
+
 5.	Install EPEL Repository:
 sudo yum install epel-release
+
 (if the above commant returns no packages found error try the following commands)
 sudo yum install python3
 sudo yum install python3-pip
+
 to check if pip installed or not:
 pip –version (this will return the version of pip)
 pip list (provides the list of the packages installed though pip command)
+
 if you want to upgrade pip:
 pip install --upgrade pip
 install other utilities:
 sudo python3 -m pip install -U setuptools
+
 install OCI- CLI:
-sudo pip install oci-cli
+sudo pip3 install oci-cli
 to check the OCI cli installed or not:
 oci –version
+
 install pandas package:
-sudo pip install pandas
+sudo pip3 install pandas
 if you are getting setup error, follow: https://stackoverflow.com/questions/35991403/pip-install-unroll-python-setup-py-egg-info-failed-with-error-code-1
 https://appuals.com/command-python-setup-py-egg_info/#:~:text=Fix%3A%20'Command%20%E2%80%9Cpython%20setup,code%201'%20When%20Installing%20Python&text=The%20error%20code%201%20is,to%20be%20installed%20or%20updated.
 Now, download the script and place it within the instance.

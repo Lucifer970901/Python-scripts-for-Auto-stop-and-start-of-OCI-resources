@@ -45,6 +45,11 @@ install pandas package:
 sudo pip3 install pandas
 if you are getting setup error, follow: https://stackoverflow.com/questions/35991403/pip-install-unroll-python-setup-py-egg-info-failed-with-error-code-1
 https://appuals.com/command-python-setup-py-egg_info/#:~:text=Fix%3A%20'Command%20%E2%80%9Cpython%20setup,code%201'%20When%20Installing%20Python&text=The%20error%20code%201%20is,to%20be%20installed%20or%20updated.
+
+if it still does not get resolved, try this.
+python -m pip install --upgrade pip
+pip install "package-name"
+
 Now, download the script and place it within the instance.
 
 Get OCIDs needed for the configuration file. (tenancy, user, and compartment OCID etc, from console)

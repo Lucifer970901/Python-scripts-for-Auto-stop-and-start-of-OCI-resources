@@ -103,5 +103,19 @@ provide the time in UTC value for example see the below command.
  30 06 * * * cd /home/opc/stop && /usr/bin/python3.6 stop_multiple.py >>test1.out
 for further information follow the below link:
 https://www.jcchouinard.com/python-automation-with-cron-on-mac/
-Hope now you are able to automatically manage starting and stopping of instances.
 
+If you are using the DB connection.
+
+You have to install the utilities like instant_client and CX_Oracle, these utilities help to  connect to your DB successfully.
+ install instant client:
+https://docs.oracle.com/en/database/oracle/oracle-database/21/lacli/install-instant-client-using-rpm.html#GUID-2E81E2AE-E94C-413F-99B2-AE9A3949F05D
+Install cx_oracle:
+python -m pip install cx_Oracle
+for more information:
+https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html
+
+![image](https://user-images.githubusercontent.com/26675416/180389572-5f91b928-6228-4811-aecc-1469af85b1a7.png)
+
+
+Hope now you are able to automatically manage starting and stopping of instances.
+Happy learning!

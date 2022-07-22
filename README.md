@@ -114,8 +114,9 @@ python -m pip install cx_Oracle
 for more information:
 https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html
 
-![image](https://user-images.githubusercontent.com/26675416/180389572-5f91b928-6228-4811-aecc-1469af85b1a7.png)
 
 
 Hope now you are able to automatically manage starting and stopping of instances.
+
+
 Happy learning!
